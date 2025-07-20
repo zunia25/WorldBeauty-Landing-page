@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WorldBeauty</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css"rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">WorldBeauty</div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+      </nav>
+      <div class="icon-group">
+        <i class='bx bxs-cart' ></i>
+        <i class='bx bxs-bell'></i>
+        <div class="nav-login">
+           <a href="#">Login</a> | <a href="#">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="search-bar">
+  <div class="section-container">
+    <div class="top-bar">
+      <div class="search-wrapper"></div>
+        <div class="search-container">
+          <input type="text" placeholder="What are you looking for?" />
+          <button class="search-btn">
+            <i class='bx bx-search'></i>
+          </button>
+        </div>
+
+        <div class="dropdowns">
+          <div class="dropdown-item">
+            <i class='bx bxs-category'></i>
+            <span>FIND YOUR VIBE</span>
+            <i class='bx bx-chevron-down'></i>
+          </div>
+          <div class="dropdown-item">
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/new.png" alt="new"/>
+            <span>HOT RIGHT NOW</span>
+            <i class='bx bx-chevron-down'></i>
+          </div>
+          <div class="dropdown-item">
+            <i class='bx bxs-discount'></i>
+            <span>GLOW DEALS</span>
+            <i class='bx bx-chevron-down'></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="hero-section">
+    <div class="hero-container">
+      <button class="nav-arrow left">❮</button>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Reveal Your<br>True Glow</h1>
+          <p>First-Time Beauty? Get 15% Off Your First Visit!</p>
+          <a href="#" class="btn-outline">SHOP NOW</a>
+
+        </div>
+        <div class="hero-image">
+          <img src="img/model.jpeg" alt="Model Image" />
+        </div>
+      </div>
+      <div class="nav-arrow left"></div>
+      <div class="nav-arrow right">❯</div>
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="limited-edition">
+    <h2>Limited Edition Finds</h2>
+    <div class="items">
+        <div class="item">
+        <img src="img/fashion.jpeg" alt="Fashion">
+        <p>Fashion</p>
+        </div>
+        <div class="item">
+        <img src="img/skincare.jpeg" alt="Skincare">
+        <p>Skincare</p>
+        </div>
+        <div class="item">
+        <img src="img/jawerly.jpeg" alt="Jewelry">
+        <p>Jewelry</p>
+        </div>
+    </div>
+  </section>
+
+  <div class="tab-container">
+    <div class="tabs">
+      <button class="tab active" data-tab="bestie">Style with Bestie</button>
+      <button class="tab" data-tab="skincare">Skincare Secrets</button>
+      <button class="tab" data-tab="jewelry">Jewelry Crushes</button>
+    </div>
+
+    <div class="products-container">
+      <div class="products active" id="bestie">
+
+        <!-- Kartu produk Style with Bestie -->
+        <div class="product-card">
+          <img src="img/blezer.jpg" alt="Black Blazer" />
+          <div class="info">
+            <h4>Black Reguler Cropped Blazer</h4>
+            <div class="price">
+              <span class="discounted">Rp 314.100</span>
+              <span class="original">Rp 349.000</span>
+              <span class="percentage">-10%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="img/dadshirt.jpg" alt="Dad Shirt" />
+          <div class="info">
+            <h4>Dad Shirt - Brwon</h4>
+            <div class="price">
+              <span class="discounted">Rp 296.400</span>
+              <span class="original">Rp 399.900</span>
+              <span class="percentage">-26%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="img/trousers.jpeg" alt="Loose Trousers" />
+          <div class="info">
+            <h4>Loose Trousers - Shuka Maroon</h4>
+            <div class="price">
+              <span class="discounted">Rp 459.500</span>
+              <span class="original">Rp 919.000</span>
+              <span class="percentage">-50%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="img/longsleeves.jpeg" alt="Long Sleeves" />
+          <div class="info">
+            <h4>Long Sleeves Buttoned slim Fit - S</h4>
+            <div class="price">
+              <span class="discounted">Rp 495.200</span>
+              <span class="original">Rp 619.000</span>
+              <span class="percentage">-20%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="img/short.jpeg" alt="Short Dress" />
+          <div class="info">
+            <h4>Short Asymmetrical Dress</h4>
+            <div class="price">
+              <span class="discounted">Rp 799.000</span>
+              <span class="original">Rp 1.299.000</span>
+              <span class="percentage">-38%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="products" id="skincare">
+        <p>Skincare products here...</p>
+      </div>
+
+      <div class="products" id="jewelry">
+        <p>Jewelry products here...</p>
+      </div>
+    </div>
+
+    <button class="load-more">Load More Products</button>
+  </div>
+
+  <!-- benner -->
+    <div class="banner-wrapper">
+    <section class="banner-heading">
+    <h2>Get Yours Before It’s Gone!</h2>
+    <div class="banner-container">
+      <img src="img/banner.jpeg" alt="NARS Promo Banner" class="banner-image" />
+    </div>
+    </div>
+    </section>
+
+  <!-- Section: Title -->
+  <section class="section-title">
+    <h2>Secure Your Style Now!</h2>
+
+  </section>
+
+  <!-- Promo Banners -->
+  <div class="promo-banners">
+    <img src="img/promo1.png" alt="Promo 1"/>
+    <img src="img/promo2.jpeg" alt="Promo 2"/>
+    <img src="img/promo3.jpeg" alt="Promo 3"/>
+  </div>
+
+  <!-- Features -->
+<section class="feature-bar">
+  <div class="feature-item">
+    <div class="feature-icon">
+      <img src="img/free-icon.png" alt="Free Shipping" />
+    </div>
+    <div class="feature-text">
+      <h4>Free Shipping</h4>
+      <p>Over Order 1 Jt</p>
+    </div>
+  </div>
+
+  <div class="feature-item">
+    <div class="feature-icon">
+      <img src="img/easypay-icon.png" alt="Easy Pay" />
+    </div>
+    <div class="feature-text">
+      <h4>Easy Pay</h4>
+      <p>100% secure payment</p>
+    </div>
+  </div>
+
+  <div class="feature-item">
+    <div class="feature-icon">
+      <img src="img/support-icon.png" alt="Support Anytime" />
+    </div>
+    <div class="feature-text">
+      <h4>Support Anytime</h4>
+      <p>Ready Support</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Fresh Reads -->
+  <section class="fresh-reads">
+    <h2>Fresh Reads</h2>
+    <div class="articles">
+      <div class="article">
+        <img src="img/artikel1.png" alt="Artikel 1">
+        <h4>Review Souvly Chewy Butter Pot: 3 in 1 Color Pot dengan Aroma Bubblegum yang Bikin Nagih!</h4>
+        <p>Menurut Mita produk ini multifungsi, dan punya warna cantik. Teksturnya lembut banget...</p>
+        <button>Read More</button>
+      </div>
+      <div class="article">
+        <img src="img/artikel2.png" alt="Artikel 2">
+        <h4>3 Kandungan yang Tidak Boleh Dipakai Barengan sama AHA</h4>
+        <p>AHA (Alpha Hydroxy Acid) adalah kandungan untuk eksfoliasi, tapi jangan campur dengan ini...</p>
+        <button>Read More</button>
+      </div>
+      <div class="article">
+        <img src="img/artikel3.png" alt="Artikel 3">
+        <h4>Efek Buruk Kolesterol pada Kecantikan Kulit, Gak Banyak Orang Tahu!</h4>
+        <p>Kolesterol yang tinggi dapat memperburuk kondisi kulit wajah dan tubuh lho!</p>
+        <button>Read More</button>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">WorldBeauty</div>
+    <div class="copyright">Copyright ©2025 Zunia Aswaroh</div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
