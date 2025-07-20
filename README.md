@@ -37,7 +37,7 @@ cd WorldBeauty-Landing-page
 ### 3. jalankan Project
 Buka file `index.html` langsung di browser, atau gunakan ekstensi Live Server di VS Code.
 
-🤖 AI Support Explanation
+## 🤖 AI Support Explanation
 Pengembangan proyek ini didukung oleh teknologi kecerdasan buatan IBM Granite AI, terutama dalam:
 
 - Membantu penyusunan struktur HTML dan CSS
