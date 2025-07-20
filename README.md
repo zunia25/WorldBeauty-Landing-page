@@ -7,8 +7,8 @@
 WorldBeauty adalah landing page statis untuk brand kecantikan yang menampilkan berbagai kategori produk, banner promosi, dan desain visual yang estetik. Website ini dibuat untuk tujuan presentasi visual tanpa interaksi penuh atau fungsionalitas backend.
 
 ## 🛠️ Technologies Used
-- HTML5 — struktur halaman
-- CSS3 — styling dan layout responsif
+- HTML — struktur halaman
+- CSS — styling dan layout responsif
 - JavaScript (minimal) — untuk slider dan visual dinamis ringan
 - Boxicons — ikon visual dekoratif
 - Git & GitHub — version control dan hosting
