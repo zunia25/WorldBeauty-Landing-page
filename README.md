@@ -29,5 +29,21 @@ WorldBeauty adalah landing page statis untuk brand kecantikan yang menampilkan b
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/zunia25/WorldBeauty-Landing-page.git
+```
+### 2. Buka Folder Project
+```bash
 cd WorldBeauty-Landing-page
+```
+### 3. jalankan Project
+Buka file `index.html` langsung di browser, atau gunakan ekstensi Live Server di VS Code.
+
+🤖 AI Support Explanation
+Pengembangan proyek ini didukung oleh teknologi kecerdasan buatan IBM Granite AI, terutama dalam:
+
+- Membantu penyusunan struktur HTML dan CSS
+- Memberikan rekomendasi desain UI/UX sesuai tren modern
+- Membantu memperbaiki masalah tata letak (search bar, posisi konten)
+- Menyusun dokumentasi dan deskripsi teknis untuk README
+
+Penggunaan IBM Granite AI bertujuan untuk meningkatkan efisiensi dan akurasi dalam proses coding serta dokumentasi. Semua hasil akhir tetap dikontrol, diuji, dan disesuaikan oleh developer secara manual.
 
