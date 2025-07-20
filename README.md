@@ -19,7 +19,6 @@ WorldBeauty adalah landing page statis untuk brand kecantikan yang menampilkan b
 - 🖼️ Hero banner dinamis dengan teks promosi
 - 🔍 Search bar statis yang stylish
 - 🧊 Dropdown & tab kategori hanya untuk tampilan
-- 📱 Responsif di berbagai perangkat (mobile, tablet, desktop)
 - 🖥️ Tidak ada fungsionalitas klik ke halaman lain (hanya tampilan visual)
 
 > ⚠️ *Note: Landing page ini bersifat statis — tidak terhubung ke backend atau sistem database.*
